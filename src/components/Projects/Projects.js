@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="My Portfolio"
               description="Crafted with passion and precision, my portfolio is more than just a collection of projects – it's a showcase of my dedication to web development and design. Powered by JavaScript and built with the efficiency and versatility of React.js, my portfolio embodies the modern approach to creating dynamic and responsive web applications."
-              ghLink="https://github.com/SaidiAnass11/PortfolioMaster"
+              ghLink="https://github.com/SaidiAnass11/Portfolio_saidi_anass"
             />
             
           </Col>
@@ -38,7 +38,7 @@ function Projects() {
               isBlog={false}
               title="App Gestion d'éléction"
               description="Developing a desktop application for a company using Ado.NET, C# and SQL server, through which the Excel file is imported and the information is stored in the database, and tools for deletion, search, modification and addition are provided, and printing."
-              ghLink="https://github.com/SaidiAnass11/App_Gestion_déléction"
+              ghLink="https://github.com/SaidiAnass11/App-desktop_gestion_d_election"
             />
           </Col>
 
