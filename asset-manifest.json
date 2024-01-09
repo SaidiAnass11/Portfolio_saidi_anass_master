@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio_saidi_anass_master/static/css/main.0973aaaa.css",
-    "main.js": "/Portfolio_saidi_anass_master/static/js/main.6371aafb.js",
+    "main.js": "/Portfolio_saidi_anass_master/static/js/main.c6f44dc0.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio_saidi_anass_master/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio_saidi_anass_master/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Saidi_anass_Curriculum_Vitae.pdf": "/Portfolio_saidi_anass_master/static/media/Saidi_anass_Curriculum_Vitae.ce803c9f2138919159b5.pdf",
+    "static/media/Saidi_anass_Curriculum_Vitae.pdf": "/Portfolio_saidi_anass_master/static/media/Saidi_anass_Curriculum_Vitae.5e6f6bac9d302da5fcd7.pdf",
     "static/media/Pcard.png": "/Portfolio_saidi_anass_master/static/media/Pcard.a39c8448e7355daf8920.png",
     "static/media/Bakeology.png": "/Portfolio_saidi_anass_master/static/media/Bakeology.d8e4bbc5cd1ebcafe4b9.png",
     "static/media/TicTacToe_Game.png": "/Portfolio_saidi_anass_master/static/media/TicTacToe_Game.23fa424bf9ee3de4d4cb.png",
@@ -20,12 +20,12 @@
     "static/media/pre.svg": "/Portfolio_saidi_anass_master/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio_saidi_anass_master/index.html",
     "main.0973aaaa.css.map": "/Portfolio_saidi_anass_master/static/css/main.0973aaaa.css.map",
-    "main.6371aafb.js.map": "/Portfolio_saidi_anass_master/static/js/main.6371aafb.js.map",
+    "main.c6f44dc0.js.map": "/Portfolio_saidi_anass_master/static/js/main.c6f44dc0.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio_saidi_anass_master/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio_saidi_anass_master/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0973aaaa.css",
-    "static/js/main.6371aafb.js"
+    "static/js/main.c6f44dc0.js"
   ]
 }
