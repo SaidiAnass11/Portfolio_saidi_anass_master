@@ -5,6 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { CgGitFork } from "react-icons/cg";
+import { BsEnvelope } from "react-icons/bs";
 // import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
@@ -13,7 +14,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
-import logo from "../Assets/logo.png"; // Assuming this is the correct path
+import logo from "../Assets/logo.png"; 
 
 
 function NavBar() {
@@ -91,6 +92,16 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
  
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/Contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <BsEnvelope style={{ marginBottom: "2px" }} /> Contact
+              </Nav.Link>
+            </Nav.Item>
+
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/SaidiAnass11/"
