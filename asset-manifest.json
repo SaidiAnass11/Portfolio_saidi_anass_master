@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio_saidi_anass_master/static/css/main.4d7b8994.css",
+    "main.css": "/Portfolio_saidi_anass_master/static/css/main.69f3ea9b.css",
     "main.js": "/Portfolio_saidi_anass_master/static/js/main.2aeedc1d.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio_saidi_anass_master/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio_saidi_anass_master/static/js/787.1ed0c42c.chunk.js",
@@ -21,13 +21,13 @@
     "static/media/avatar.svg": "/Portfolio_saidi_anass_master/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/pre.svg": "/Portfolio_saidi_anass_master/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio_saidi_anass_master/index.html",
-    "main.4d7b8994.css.map": "/Portfolio_saidi_anass_master/static/css/main.4d7b8994.css.map",
+    "main.69f3ea9b.css.map": "/Portfolio_saidi_anass_master/static/css/main.69f3ea9b.css.map",
     "main.2aeedc1d.js.map": "/Portfolio_saidi_anass_master/static/js/main.2aeedc1d.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio_saidi_anass_master/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio_saidi_anass_master/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d7b8994.css",
+    "static/css/main.69f3ea9b.css",
     "static/js/main.2aeedc1d.js"
   ]
 }
