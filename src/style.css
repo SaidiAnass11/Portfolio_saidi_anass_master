@@ -749,8 +749,6 @@ button:focus {
 
 .text_img img {
   width: 100%;
-  max-width: 100%;
-  height: auto;
   position: relative;
 }
 
@@ -885,38 +883,55 @@ button:focus {
   .contact form {
     margin-left: 25%;
   }
+  .text {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .text_img {
+    width: 100%;
+    max-width: 350%;
+  }
 }
 
 @media (max-width: 768px) {
   .text {
-    margin-left:8%;
+    flex-direction: column-reverse;
+    text-align: center;
   }
   .text_img {
-    width: 70%; /* Increased width for better visibility */
-    /* margin: 0 auto; */
-  }
-  .text .text_desc {
     width: 100%;
+    max-width: 350%;
+  }
+  .text_img img {
+    margin-left: 0;
+  }
+   .text .text_desc { 
+    text-align: justify;
+    margin-left: 0%;
+  } 
+  .text h1 {
+    font-size: 25px;
+    margin-left: 2%;
   }
   .text .contact_note,
   .text .contact_infos p {
     max-width: 100%;
   }
   .contact form {
-    width: max-content;
-    margin-left: 6%;
+    width: 100%;
+    margin-left: 0;
   }
-  .s_btn {
-    margin-left: 15%;
+  .inp_send_btn {
+    margin-left: 0;
   }
 }
-
-@media (max-width: 480px) {
+@media (max-width: 1300px) {
   .contact_info {
     flex-direction: column;
   }
   .text_img img {
-    margin-left: 0;
+    width: 100%;
+    max-width: 350%;
   }
   .contact .message_sent {
     margin-left: 0;
@@ -925,18 +940,52 @@ button:focus {
     font-size: 18px;
   }
   .text h1 {
-    font-size: 35px;
+    font-size: 25px;
+    margin-left: 2%;
   }
   .contact form {
-    max-width: 92%;
+    width: 100%;
+    margin-left: 0;
   }
   #contact {
-    margin-left: -6%;
+    margin-left: 0;
   }
-  .text .text_desc {
+  .text .text_desc { 
     text-align: justify;
-  }
+    margin-left: 0%;
+  } 
   .inp_send_btn {
-    margin-left: 8%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact_info {
+    flex-direction: column;
+  }
+
+  .contact .message_sent {
+    margin-left: 0;
+  }
+  .contact .message_sent h2 {
+    font-size: 18px;
+  }
+  .text h1 {
+    font-size: 25px;
+    margin-left: 2%;
+  }
+  .contact form {
+    width: 100%;
+    margin-left: 0;
+  }
+  #contact {
+    margin-left: 0;
+  }
+  .text .text_desc { 
+    text-align: justify;
+    margin-left: 0%;
+  } 
+  .inp_send_btn {
+    margin-left: 0;
   }
 }
