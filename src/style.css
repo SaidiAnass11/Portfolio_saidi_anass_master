@@ -633,6 +633,27 @@ button:focus {
   color: white !important;
 }
 
+ .btnResume {
+  background: transparent;
+  color: #aaa;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: 0.4s ease;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btnResume:hover {
+  transform: translateY(-2px);
+  background-color: transparent;
+  display: inline-block;
+  box-shadow: 0 0 3px 4px rgba(211, 121, 236, 0.65);
+  color: #fff;
+} 
+
 .fork-btn {
   font-size: 1.1em !important;
   padding-top: 5px !important;
@@ -703,7 +724,7 @@ button:focus {
 }
 
 .text {
-  margin-top: 50px;
+  margin-top: 10px;
   /* text-align: center; */
 }
 
@@ -714,8 +735,8 @@ button:focus {
 }
 
 .text .text_desc {
-  margin: 20px 0; /* Adjusted the margin */
-  font-size: 18px;
+  margin: 20px 0; 
+  font-size: 12px;
   line-height: 30px;
   color: #ffffff;
   width: 100%;
