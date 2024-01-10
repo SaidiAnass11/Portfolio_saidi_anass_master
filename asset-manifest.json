@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_saidi_anass_master/static/css/main.ba255f30.css",
-    "main.js": "/Portfolio_saidi_anass_master/static/js/main.39efb3b6.js",
+    "main.css": "/Portfolio_saidi_anass_master/static/css/main.eed8e37d.css",
+    "main.js": "/Portfolio_saidi_anass_master/static/js/main.d5c8c3f3.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio_saidi_anass_master/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio_saidi_anass_master/static/js/787.1ed0c42c.chunk.js",
     "static/media/Saidi_anass_Curriculum_Vitae.pdf": "/Portfolio_saidi_anass_master/static/media/Saidi_anass_Curriculum_Vitae.5e6f6bac9d302da5fcd7.pdf",
@@ -9,6 +9,7 @@
     "static/media/Bakeology.png": "/Portfolio_saidi_anass_master/static/media/Bakeology.d8e4bbc5cd1ebcafe4b9.png",
     "static/media/TicTacToe_Game.png": "/Portfolio_saidi_anass_master/static/media/TicTacToe_Game.23fa424bf9ee3de4d4cb.png",
     "static/media/IAjokes.png": "/Portfolio_saidi_anass_master/static/media/IAjokes.8c57f26d98963b718549.png",
+    "static/media/Contact.png": "/Portfolio_saidi_anass_master/static/media/Contact.ce7663ce14c897cfaa96.png",
     "static/media/PortfolioMaster.png": "/Portfolio_saidi_anass_master/static/media/PortfolioMaster.b9d63fb34a537e3ca5c5.png",
     "static/media/home-main.svg": "/Portfolio_saidi_anass_master/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/Portfolio_saidi_anass_master/static/media/about.aee0f771fbfc1e7b8fa8.png",
@@ -19,13 +20,13 @@
     "static/media/avatar.svg": "/Portfolio_saidi_anass_master/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/pre.svg": "/Portfolio_saidi_anass_master/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio_saidi_anass_master/index.html",
-    "main.ba255f30.css.map": "/Portfolio_saidi_anass_master/static/css/main.ba255f30.css.map",
-    "main.39efb3b6.js.map": "/Portfolio_saidi_anass_master/static/js/main.39efb3b6.js.map",
+    "main.eed8e37d.css.map": "/Portfolio_saidi_anass_master/static/css/main.eed8e37d.css.map",
+    "main.d5c8c3f3.js.map": "/Portfolio_saidi_anass_master/static/js/main.d5c8c3f3.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio_saidi_anass_master/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio_saidi_anass_master/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba255f30.css",
-    "static/js/main.39efb3b6.js"
+    "static/css/main.eed8e37d.css",
+    "static/js/main.d5c8c3f3.js"
   ]
 }
