@@ -32,7 +32,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/Portfolio_saidi_anass_master">
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
