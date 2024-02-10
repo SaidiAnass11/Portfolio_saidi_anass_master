@@ -25,8 +25,8 @@ function Projects() {
             <ProjectCard
               imgPath={PortfolioMaster}
               isBlog={false}
-              title="My Portfolio"
-              description="Crafted with passion and precision, my portfolio is more than just a collection of projects – it's a showcase of my dedication to web development and design. Powered by JavaScript and built with the efficiency and versatility of React.js, my portfolio embodies the modern approach to creating dynamic and responsive web applications."
+              title={<span className="purple">My Portfolio</span>}
+              description="Crafted with passion and precision, my portfolio is more than just a collection of projects, it's a showcase of my dedication to web development and design. Powered by JavaScript and built with the efficiency and versatility of React.js, my portfolio embodies the modern approach to creating dynamic and responsive web applications."
               ghLink="https://github.com/SaidiAnass11/Portfolio_saidi_anass"
             />
             
@@ -36,7 +36,7 @@ function Projects() {
             <ProjectCard
               imgPath={App_Gestion_déléction}
               isBlog={false}
-              title="App Gestion d'éléction"
+              title={<span className="purple">App Gestion d'éléction</span>}
               description="Developing a desktop application for a company using Ado.NET, C# and SQL server, through which the Excel file is imported and the information is stored in the database, and tools for deletion, search, modification and addition are provided, and printing."
               ghLink="https://github.com/SaidiAnass11/App-desktop_gestion_d_election"
             />
@@ -46,7 +46,7 @@ function Projects() {
             <ProjectCard
               imgPath={IAjokes}
               isBlog={false}
-              title="IA Jokes Generator"
+              title={<span className="purple">IA Jokes Generator</span>}
               description="A simple project telling jokes generating with IA, using with html, Css and java script."
               ghLink="https://github.com/SaidiAnass11/IA-jokes-generator"
             />
@@ -58,7 +58,7 @@ function Projects() {
               isBlog={true}
               showIcons={true}
               title="Professional card"
-              description="designing my logo in a Simple professional card using Adobe Photoshop & illustrator."
+              description="Designing my logo in a Simple professional card using Adobe Photoshop & illustrator."
               ghLink="https://www.threads.net/@saidi_anass_11/post/C0za4EMrgLz/?igshid=NTc4MTIwNjQ2YQ=="
             />
           </Col>
@@ -67,7 +67,7 @@ function Projects() {
             <ProjectCard
               imgPath={TicTacToe_Game}
               isBlog={false}
-              title="TicTacToe Game"
+              title={<span className="purple">TicTacToe Game</span>}
               description="This project brings the classic Tic Tac Toe game to life using HTML, CSS, and JavaScript. It's a simple yet engaging implementation that allows players to enjoy the timeless game of Tic Tac Toe in the browser."
               ghLink="https://github.com/SaidiAnass11/TicTacToe-Game"
             />
@@ -77,7 +77,7 @@ function Projects() {
             <ProjectCard
               imgPath={Bakeology}
               isBlog={false}
-              title="Bakeology Bakery"
+              title={<span className="purple">Bakeology Bakery</span>}
               description="A Commercial website which is a bakery store, using HTML,Css and java script."
               ghLink="https://github.com/SaidiAnass11/Bakeology_Bakery"
             />

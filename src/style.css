@@ -713,7 +713,6 @@ button:focus {
 /* --------- */
 /* Contact */
 /* --------- */
-
 .contact_info {
   min-height: 100vh;
   display: flex;
@@ -725,7 +724,7 @@ button:focus {
 
 .text {
   margin-top: 10px;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .text h1 {
@@ -735,7 +734,7 @@ button:focus {
 }
 
 .text .text_desc {
-  margin: 20px 0; 
+  margin: 20px 0;
   font-size: 12px;
   line-height: 30px;
   color: #ffffff;
@@ -744,7 +743,7 @@ button:focus {
 
 .text_img {
   width: 40%;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .text_img img {
@@ -761,6 +760,7 @@ button:focus {
 .contact_infos span {
   color: var(--main-color);
 }
+
 .contact .message_sent {
   position: absolute;
   bottom: 0;
@@ -769,6 +769,7 @@ button:focus {
   text-align: center;
   width: 100%;
 }
+
 .contact .message_sent h2,
 .contact .message_sent p {
   border-left: 8px solid #fff;
@@ -782,22 +783,10 @@ button:focus {
 
 .contact .message_sent p {
   background-color: #c70032;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  width: 100%;
 }
 
 .contact .message_sent h2 {
   background-color: #00a740;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  width: 100%;
 }
 
 .email_validation {
@@ -873,118 +862,104 @@ button:focus {
 
 .inp_send_btn:hover {
   transform: translateY(-2px) !important;
-  background-color:auto !important;
+  background-color: transparent !important;
   box-shadow: 0 0 3px 4px rgba(155, 88, 173, 0.65) !important;
-  color: #fff; 
+  color: #fff;
 }
 
 /* Responsive Media Queries */
-@media (max-width: 1200px) {
-  .contact form {
-    margin-left: 25%;
+@media (max-width: 1300px) {
+  .text h1 {
+    font-size: 25px;
+    margin-left: 2%;
   }
-  .text {
-    flex-direction: column-reverse;
-    text-align: center;
-  }
-  .text_img {
+
+  .text_img img {
     width: 100%;
     max-width: 350%;
+  }
+
+  .contact .message_sent {
+    margin-left: 0;
+  }
+
+  .contact .message_sent h2 {
+    font-size: 18px;
+  }
+
+  .text .text_desc {
+    text-align: justify;
+    margin-left: 0%;
+  }
+
+  .contact form,
+  #contact {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .inp_send_btn {
+    margin-left: 0;
+  }
+
+  .contact_info {
+    flex-direction: column;
   }
 }
 
 @media (max-width: 768px) {
-  .text {
-    flex-direction: column-reverse;
-    text-align: center;
+  .text h1 {
+    font-size: 25px;
+    margin-left: 2%;
   }
+
   .text_img {
     width: 100%;
-    max-width: 350%;
+    max-width: 150%;
   }
+
   .text_img img {
     margin-left: 0;
   }
-   .text .text_desc { 
+
+  .text .text_desc {
     text-align: justify;
     margin-left: 0%;
-  } 
-  .text h1 {
-    font-size: 25px;
-    margin-left: 2%;
   }
-  .text .contact_note,
-  .text .contact_infos p {
-    max-width: 100%;
-  }
-  .contact form {
-    width: 100%;
-    margin-left: 0;
-  }
-  .inp_send_btn {
-    margin-left: 0;
-  }
-}
-@media (max-width: 1300px) {
-  .contact_info {
-    flex-direction: column;
-  }
-  .text_img img {
-    width: 100%;
-    max-width: 350%;
-  }
-  .contact .message_sent {
-    margin-left: 0;
-  }
-  .contact .message_sent h2 {
-    font-size: 18px;
-  }
-  .text h1 {
-    font-size: 25px;
-    margin-left: 2%;
-  }
-  .contact form {
-    width: 100%;
-    margin-left: 0;
-  }
+
+  .contact form,
   #contact {
+    width: 100%;
     margin-left: 0;
   }
-  .text .text_desc { 
-    text-align: justify;
-    margin-left: 0%;
-  } 
+
   .inp_send_btn {
     margin-left: 0;
   }
 }
 
 @media (max-width: 480px) {
-  .contact_info {
-    flex-direction: column;
-  }
-
-  .contact .message_sent {
-    margin-left: 0;
-  }
-  .contact .message_sent h2 {
-    font-size: 18px;
-  }
   .text h1 {
     font-size: 25px;
     margin-left: 2%;
   }
-  .contact form {
+
+  .text_img img {
+    width: 100%;
+    max-width: 350%;
+  }
+
+  .text .text_desc {
+    text-align: justify;
+    margin-left: 0%;
+  }
+
+  .contact form,
+  #contact {
     width: 100%;
     margin-left: 0;
   }
-  #contact {
-    margin-left: 0;
-  }
-  .text .text_desc { 
-    text-align: justify;
-    margin-left: 0%;
-  } 
+
   .inp_send_btn {
     margin-left: 0;
   }
