@@ -25,7 +25,7 @@ function Projects() {
             <ProjectCard
               imgPath={PortfolioMaster}
               isBlog={false}
-              title={<span className="purple">My Portfolio</span>}
+              title={<span className="purple">Portfolio</span>}
               description="Crafted with passion and precision, my portfolio is more than just a collection of projects, it's a showcase of my dedication to web development and design. Powered by JavaScript and built with the efficiency and versatility of React.js, my portfolio embodies the modern approach to creating dynamic and responsive web applications."
               ghLink="https://github.com/SaidiAnass11/Portfolio_saidi_anass"
             />
