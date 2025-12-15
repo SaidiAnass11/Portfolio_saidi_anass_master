@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
+import ProjectCards from "./ProjectCards";
 import Particle from "../Particle";
 import TicTacToe_Game from "../../Assets/Projects/TicTacToe_Game.png";
 import Bakeology from "../../Assets/Projects/Bakeology.png";
@@ -8,6 +8,11 @@ import IAjokes from "../../Assets/Projects/IAjokes.png";
 import PortfolioMaster from "../../Assets/Projects/PortfolioMaster.png";
 import Pcard from "../../Assets/Projects/Pcard.png";
 import App_Gestion_déléction from "../../Assets/Projects/App_Gestion_déléction.png";
+import ThreadsLogo from "../../Assets/Threads-Logo-PNG.png";
+import Pcard2 from "../../Assets/Projects/Pcard2.png";
+import Pcard3 from "../../Assets/Projects/Pcard3.png";
+
+
 
 function Projects() {
   return (
@@ -22,7 +27,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCards
               imgPath={PortfolioMaster}
               isBlog={false}
               title={<span className="purple">Portfolio</span>}
@@ -33,7 +38,7 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCards
               imgPath={App_Gestion_déléction}
               isBlog={false}
               title={<span className="purple">App Gestion d'éléction</span>}
@@ -43,7 +48,7 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCards
               imgPath={IAjokes}
               isBlog={false}
               title={<span className="purple">IA Jokes Generator</span>}
@@ -53,18 +58,21 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Pcard}
+            <ProjectCards
+              imgPath={Pcard} // الصورة الأولى
+              images={[Pcard, Pcard2, Pcard3]} // الصور اللي غيتبدلوا
+              threadsLogo={ThreadsLogo}
               isBlog={true}
               showIcons={true}
               title="Professional card"
               description="Designing my logo in a Simple professional card using Adobe Photoshop & illustrator."
-              ghLink="https://www.threads.net/@saidi_anass_11/post/C0za4EMrgLz/?igshid=NTc4MTIwNjQ2YQ=="
+              ghLink="https://www.threads.net/@saidi_anass_11/post/C0za4EMrgLz/"
             />
           </Col>
 
+
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCards
               imgPath={TicTacToe_Game}
               isBlog={false}
               title={<span className="purple">TicTacToe Game</span>}
@@ -74,7 +82,7 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCards
               imgPath={Bakeology}
               isBlog={false}
               title={<span className="purple">Bakeology Bakery</span>}
