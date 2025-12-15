@@ -46,12 +46,20 @@ function ProjectCards(props) {
               marginBottom: "15px",
             }}
           >
-            <Button variant="secondary" onClick={handlePrev}>
-              {'<'}
+            <Button
+              variant="primary"
+              className="nav-btn"
+              onClick={handlePrev}
+            >
+              {"<"}
             </Button>
 
-            <Button variant="secondary" onClick={handleNext}>
-              {'>'}
+            <Button
+              variant="primary"
+              className="nav-btn"
+              onClick={handleNext}
+            >
+              {">"}
             </Button>
           </div>
         )}

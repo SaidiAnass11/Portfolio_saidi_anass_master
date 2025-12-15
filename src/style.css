@@ -937,6 +937,24 @@ button:focus {
     margin-left: 0;
   }
 }
+/* الحالة العادية */
+.nav-btn {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  transition: all 0.4s ease !important;
+}
+
+/* ملي كتدير hover على الكارت كاملة */
+.project-card-view:hover .nav-btn {
+  background-color: #623686 !important; /* نفس btn-primary */
+  border-color: #623686 !important;
+}
+
+/* hover مباشر على الزر */
+.nav-btn:hover {
+  background-color: #623686 !important;
+  border-color: #623686 !important;
+}
 
 @media (max-width: 480px) {
   .text h1 {
