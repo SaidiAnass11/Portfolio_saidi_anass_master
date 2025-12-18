@@ -29,7 +29,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCards
               imgPath={PortfolioMaster}
-              isBlog={false}
               title={<span className="purple">Portfolio</span>}
               description="Crafted with passion and precision, my portfolio is more than just a collection of projects, it's a showcase of my dedication to web development and design. Powered by JavaScript and built with the efficiency and versatility of React.js, my portfolio embodies the modern approach to creating dynamic and responsive web applications."
               ghLink="https://github.com/SaidiAnass11/Portfolio_saidi_anass"
@@ -40,7 +39,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCards
               imgPath={App_Gestion_déléction}
-              isBlog={false}
               title={<span className="purple">App Gestion d'éléction</span>}
               description="Developing a desktop application for a company using Ado.NET, C# and SQL server, through which the Excel file is imported and the information is stored in the database, and tools for deletion, search, modification and addition are provided, and printing."
               ghLink="https://github.com/SaidiAnass11/App-desktop_gestion_d_election"
@@ -50,7 +48,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCards
               imgPath={IAjokes}
-              isBlog={false}
               title={<span className="purple">IA Jokes Generator</span>}
               description="A simple project telling jokes generating with IA, using with html, Css and java script."
               ghLink="https://github.com/SaidiAnass11/IA-jokes-generator"
@@ -59,12 +56,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCards
-              imgPath={Pcard} // الصورة الأولى
-              images={[Pcard, Pcard2, Pcard3]} // الصور اللي غيتبدلوا
+              images={[Pcard, Pcard2, Pcard3]}
               threadsLogo={ThreadsLogo}
-              isBlog={true}
+              isBtn={true}
               showIcons={true}
-              title="Professional card"
+              title={<span className="purple">Professional card</span>}
               description="Designing my logo in a Simple professional card using Adobe Photoshop & illustrator."
               ghLink="https://www.threads.net/@saidi_anass_11/post/C0za4EMrgLz/"
             />
@@ -74,7 +70,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCards
               imgPath={TicTacToe_Game}
-              isBlog={false}
               title={<span className="purple">TicTacToe Game</span>}
               description="This project brings the classic Tic Tac Toe game to life using HTML, CSS, and JavaScript. It's a simple yet engaging implementation that allows players to enjoy the timeless game of Tic Tac Toe in the browser."
               ghLink="https://github.com/SaidiAnass11/TicTacToe-Game"
@@ -84,7 +79,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCards
               imgPath={Bakeology}
-              isBlog={false}
               title={<span className="purple">Bakeology Bakery</span>}
               description="A Commercial website which is a bakery store, using HTML,Css and java script."
               ghLink="https://github.com/SaidiAnass11/Bakeology_Bakery"

@@ -76,7 +76,7 @@ function ProjectCards(props) {
               <BsGithub />
             )}
             &nbsp;
-            {props.isBlog ? "Threads" : "GitHub"}
+            {props.isBtn ? "Threads" : "GitHub"}
           </Button>
         </div>
       </Card.Body>
