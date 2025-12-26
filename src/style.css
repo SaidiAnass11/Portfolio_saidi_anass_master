@@ -76,10 +76,9 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
-  transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-  backdrop-filter: blur(15px) !important;
+  background: rgba(0, 0, 0, 0.15) !important;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 }
 
 .navbar {
@@ -142,11 +141,55 @@ button:focus {
   transform: rotate(-135deg) !important;
   opacity: 0.9 !important;
 }
+/* ===== Mobile navbar right side (CSS ONLY) ===== */
+@media (max-width: 767px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 260px;
+
+    background: var(--section-background-color) !important;
+
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    padding: 15px;
+    border-radius: 0 0 0 12px;
+  }
+  .navbar-nav {
+    align-items: flex-start !important;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .navbar-nav .nav-link {
+    width: 100%;
+    padding: 10px 15px !important;
+  }
+
+  .fork-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .fork-btn-inner {
+    width: 100%;
+  }
+}
+
+/* burger button stays right */
+.navbar-toggler {
+  margin-left: auto !important;
+}
 
 @media (max-width: 767px) {
   .navbar {
     position: relative;
-    padding: 0.1rem 2rem !important;
+    padding: 0.1rem 1rem !important;
     font-size: 1.2rem !important;
     background-color: #361646 !important;
   }
@@ -156,15 +199,15 @@ button:focus {
   }
 }
 .navbar-brand {
-  padding: 0.75rem 1rem !important;
+  padding: 0.3rem 0.8rem !important;
   margin-right: 15px;
   color: rgb(254, 252, 255) !important;
 }
 
 .logo {
   position: top !important;
-  height: 70px !important;
-  width: auto!important;
+  height: 35px !important; /* أو 30px */
+  width: auto !important;
   font-size: 2rem !important;
 }
 .logo:hover{
