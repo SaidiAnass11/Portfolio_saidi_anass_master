@@ -77,8 +77,9 @@ button:focus {
 /* --------- */
 .sticky {
   background: rgba(0, 0, 0, 0.15) !important;
-  backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+
 }
 
 .navbar {
@@ -150,9 +151,9 @@ button:focus {
     width: 260px;
 
     background: var(--section-background-color) !important;
-
-    backdrop-filter: blur(15px);
+    
     -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
 
     padding: 15px;
     border-radius: 0 0 0 12px;

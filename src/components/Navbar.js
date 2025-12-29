@@ -38,12 +38,13 @@ function NavBar() {
       <Container>
         {/* ✅ Logo refreshes the page */}
         <Navbar.Brand
-          href="/"
+          as={Link}
+          to="/"
           className="navbar-brand"
-          onClick={() => window.location.reload()}
+          onClick={() => updateExpanded(false)}
         >
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
+  <img src={logo} className="img-fluid logo" alt="brand" />
+</Navbar.Brand>
 
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
